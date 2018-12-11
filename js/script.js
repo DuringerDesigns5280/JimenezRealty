@@ -59,7 +59,7 @@ $(function () {
 		// Navbar collapse on click
 		$('.navbar-collapse').collapse('hide');
 	});
-
+	
 	// Contact form
 	$('#contact form').submit(function(e) {
 		e.preventDefault();

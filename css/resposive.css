@@ -115,8 +115,26 @@
 		margin: 5px 0 25px;
 	}
 
+	#sigpadding{
+		margin-top: -90px;
+	}
+
 	#thingstodo{
 		margin: 0;
+	
+	}
+
+	#newbuildimg{
+		padding-top: 6vh;
+	}
+
+	#responsivelogo{
+		margin-top: -100px;
+		padding: 2vh;
+	}
+
+	#sig{
+		font-size: 40px;
 	}
 	
 	.about-progress h3 {
