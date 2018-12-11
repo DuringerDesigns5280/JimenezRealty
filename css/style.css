@@ -531,9 +531,7 @@ p {
 	justify-content: center;
 	align-content: center;
 	margin-left: 180px;
-
 }
-
 
 .centered-text {
 	position: absolute;
@@ -638,7 +636,9 @@ p {
 	border-radius: 0;
 }
 .buildsheading{
-	color:#bd8c7d
+	color:#bd8c7d;
+	border-bottom: 1px solid #bd8c7d;
+	padding-bottom: 5px;
 }
 
 /*================================
