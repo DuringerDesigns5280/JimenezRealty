@@ -71,9 +71,7 @@ h1,
 h2{
 
 font-family: tenez, sans-serif;
-
 font-weight: 400;
-
 font-style: italic;
 }
 h3,
@@ -163,7 +161,7 @@ p {
 .blog .blog-bg,
 .contact {
 	background-color: 
-	#a2acb8;
+	#49494b;
 }
 
 /*--------------------------------
@@ -230,24 +228,24 @@ p {
 .nav-link {
 	display: flex;
 	align-items: center;
-	color: #fff !important;
+	color:#bd8c7d !important;
 	padding: 0px 15px !important;
 	font-size: 16px;
 	letter-spacing: 2px;
 }
 .navbar li a.active {
-	color: #879bb6 !important;
+	color:#8e8e90 !important;
 }
 
 .nav-background {
-	background:#a2acb8 !important;
+	background:#49494b !important;
 	padding: 5px 15px;
 	box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 	margin-top: 0;
 }
 
 .nav-background a {
-	color: #000 !important;
+	color:#bd8c7d!important;
 }
 
 .logo-color {
@@ -417,13 +415,23 @@ p {
 	overflow: hidden;
 	max-width: 200px;
 }
+.greeting{
+	padding-bottom: 20px;
+	font-family: milonguita, sans-serif;
+	font-size: 60px;
+	font-weight: bold;
+	font-style: normal;
+	color: #bd8c7d;
+	}
+	
 .signature{
-padding: 30px;
-font-family: milonguita, sans-serif;
-font-size: 3000px;
-font-weight: bold;
-font-style: normal;
-color: #000;
+	padding-left: 220px;
+	padding-top: 50px;
+	font-family: milonguita, sans-serif;
+	font-size: 60px;
+	font-weight: bold;
+	font-style: normal;
+	color: #bd8c7d;
 }
 
 /*================================
@@ -629,24 +637,25 @@ color: #000;
 #newbuildimg{
 	border-radius: 0;
 }
+.buildsheading{
+	color:#bd8c7d
+}
+
+/*================================
+          11.featured hood
+================================*/
+
+#featured{
+	background-color: white;
+}
+
+.featuredlogo{
+	color:#8e8e90
+}
+
 /*================================
           11. Blog
 ================================*/
-
-/*================================
-          11. Blog/featured hood
-================================*/
-
-.featuredhood{
-	margin: 10px auto 20px 0;
-}
-
-.featuredhoodpic{
-	height: 500px;
-	width: 700px;
-}
-
-
 .blog .blog-bg .blog-size {
 	padding: 45px 30px;
 }
@@ -687,11 +696,17 @@ color: #000;
 	margin: 25px 0 20px;
 }
 
+
 /*================================
       12. Contact
 ================================*/
 .contact {
-	color: #ffffff !important;
+	color:#bd8c7d !important;
+}
+
+#mainlogo {
+	border-bottom: 1px solid #bd8c7d;
+	padding-bottom: 5px;
 }
 
 .contact-form {
@@ -757,7 +772,7 @@ color: #000;
 .my-footer {
 	padding: 40px 0;
 	background-color: #131313;
-	color: #fff;
+	color:#bd8c7d;
 }
 
 .my-footer h4 {
@@ -783,7 +798,7 @@ color: #000;
 }
 
 .social a:hover i {
-	color: #fff;
+	color:#bd8c7d;
 	background-color: #031219;
-	border: solid 1px #879bb6;
+	border: solid 1px #bd8c7d;
 }
