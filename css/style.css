@@ -181,7 +181,7 @@ p {
 .counter_up h3,
 .trusted .name,
 .trusted .post {
-	color: #59687c;
+	color: white;;
 }
 
 .service-left p,
@@ -189,7 +189,7 @@ p {
 .service-right .service-detail p,
 .trusted .trusted-left,
 .trusted .owl .item p {
-	color: #708198 !important;
+	color: white !important;
 }
 
 .service-left h2,
@@ -273,7 +273,7 @@ p {
 ================================*/
 .jumbotron {
 	padding: 120px 0;
-	background-image: url(../images/skyline.jpg);
+	background-image: url(../images/col.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	margin-bottom: 0px;
@@ -564,6 +564,17 @@ p {
        8. Trust
 ================================*/
 
+.testlogo{
+	color:#bd8c7d;
+	border-bottom: 1px solid #bd8c7d;
+}
+.trusted{
+	background-color: #454545;
+	display: flex;
+	flex-direction: column;
+
+}
+
 .trusted .trusted-left p {
 	font-size: 17px;
 	letter-spacing: 1px;
@@ -592,13 +603,17 @@ p {
 	font-size: 15px;
 	letter-spacing: 1px;
 }
-
 /*================================
        10. portfolio/denverofferings style
 ================================*/
 
 .portfolio {
-	background-color: #f1f1f1;
+	background-color: #454545;
+}
+
+
+.thingstodologo{
+	color:#bd8c7d;
 }
 
 .portfolio .g-button-filter {
@@ -631,7 +646,9 @@ p {
 /*================================
           11. newbuilds
 ================================*/
-
+#newbuilds{
+	background-color: white;
+}
 #newbuildimg{
 	border-radius: 0;
 }
@@ -646,11 +663,11 @@ p {
 ================================*/
 
 #featured{
-	background-color: white;
+	background-color:white;
 }
 
 .featuredlogo{
-	color:#8e8e90
+	color:#bd8c7d
 }
 
 /*================================
@@ -764,6 +781,17 @@ p {
 
 .form-row:last-child .form-group {
 	margin-bottom: 0;
+}
+
+.square-button{
+padding-top: 6vh;
+color:#bd8c7d;
+background: none;
+border: none;
+font-size: 30px;
+font-family: 'couture-sans', sans-serif;
+font-weight: bold;
+font-style: normal;	
 }
 
 /*================================
