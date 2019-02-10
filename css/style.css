@@ -340,6 +340,9 @@ p {
 	background-color: transparent;
 }
 
+#blogJumbo{
+	color:#bd8c7d;
+}
 /*================================
        6. About
 ================================*/
@@ -382,7 +385,13 @@ p {
 .about-me p {
 	font-size: 18px;
 	letter-spacing: 1px;
-	color: #04020a;
+	color: white;
+}
+
+#blacktext{
+	font-size: 18px;
+	letter-spacing: 1px;
+	color: black;
 }
 
 .about-skil h3 {
@@ -553,12 +562,6 @@ p {
 	font-style: normal;
 }
 
-.overlay{
-	position: absolute;
-	height: 100vh;
-	width:100vw;
-	background:  rgba(0, 0, 0, 0.5);
-}
 
 /*================================
        8. Trust
@@ -590,6 +593,7 @@ p {
 }
 
 .trusted .name {
+	color: #bd8c7d;
 	font-size: 24px;
 	font-weight: 700;
 }
@@ -608,7 +612,7 @@ p {
 ================================*/
 
 .portfolio {
-	background-color: #454545;
+	background-color: #49494b;
 }
 
 
@@ -669,6 +673,77 @@ p {
 .featuredlogo{
 	color:#bd8c7d
 }
+
+
+/*================================
+          11.Jes' Top 5
+================================*/
+.blogBody{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	padding: 4vw;
+}
+
+
+.blogLogo{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 4vh;
+	
+}
+.mainLogo{
+	border-bottom: none;
+}
+
+
+.topContent{
+	display: flex;
+	flex-direction: row;
+
+}
+
+.topParagraph{
+	padding: 4vw;
+	text-indent: 50px;
+}
+
+.midContent{
+	display: flex;
+	flex-direction: row;
+}
+
+.midParagraph{
+
+	padding: 4vw;
+	text-indent: 50px;
+}
+
+.midContent2{
+	display: flex;
+	flex-direction: row;
+}
+
+.midParagraph2{
+	padding: 4vw;
+	text-indent: 50px;
+}
+
+
+.numberContent{
+	display: flex;
+	flex-direction: row;
+}
+.numberInfo{
+	padding: 4vw;
+}
+
+.numberPara{
+	text-indent: 50px;
+}
+
+
+
 
 /*================================
           11. Blog
