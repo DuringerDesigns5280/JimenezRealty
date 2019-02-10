@@ -683,10 +683,12 @@ p {
 	display: flex;
 	flex-direction: column;
 	padding: 4vw;
+	background-image:#ddddde;
 }
 
 
 .blogLogo{
+	color: #bd8c7d;
 	display: flex;
 	justify-content: center;
 	padding-bottom: 4vh;
@@ -696,6 +698,9 @@ p {
 	border-bottom: none;
 }
 
+.imageCircle{
+	border-radius: 50%;
+}
 
 .topContent{
 	display: flex;
@@ -719,6 +724,10 @@ p {
 	text-indent: 50px;
 }
 
+.midImage{
+	padding-top: 7vh;
+}
+
 .midContent2{
 	display: flex;
 	flex-direction: row;
@@ -729,17 +738,24 @@ p {
 	text-indent: 50px;
 }
 
+.numberTitle{
+	color:#bd8c7d;
+	
+}
 
 .numberContent{
 	display: flex;
 	flex-direction: row;
+	
 }
 .numberInfo{
 	padding: 4vw;
+	
 }
 
 .numberPara{
 	text-indent: 50px;
+	
 }
 
 
