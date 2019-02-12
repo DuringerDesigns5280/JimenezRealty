@@ -161,7 +161,7 @@ p {
 .blog .blog-bg,
 .contact {
 	background-color: 
-	#49494b;
+	whitesmoke;
 }
 
 /*--------------------------------
@@ -189,7 +189,7 @@ p {
 .service-right .service-detail p,
 .trusted .trusted-left,
 .trusted .owl .item p {
-	color: white !important;
+	color: #123e58 !important;
 }
 
 .service-left h2,
@@ -234,18 +234,22 @@ p {
 	letter-spacing: 2px;
 }
 .navbar li a.active {
-	color:#8e8e90 !important;
+	font-family: gautreaux, sans-serif;
+	font-weight: 900;
+	font-size: 25px;
+	font-style: normal; 
 }
 
 .nav-background {
-	background:#49494b !important;
+	background:
+	#123e58!important;
 	padding: 5px 15px;
-	box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 	margin-top: 0;
 }
 
 .nav-background a {
 	color:#bd8c7d!important;
+	
 }
 
 .logo-color {
@@ -273,8 +277,9 @@ p {
 ================================*/
 .jumbotron {
 	padding: 120px 0;
-	background-image: url(../images/col.jpg);
+	background-image: url(../images/skyline.jpg);
 	background-size: cover;
+	background-position: center;
 	background-attachment: fixed;
 	margin-bottom: 0px;
 	text-align: left;
@@ -288,6 +293,26 @@ p {
 	flex-direction: column;
 	justify-content: center;
 }
+
+#logoJumbo{
+	padding-bottom: 24vh;
+}
+
+#homeButton{
+	color: #bd8c7d;
+	background: transparent;
+	font-family: gautreaux, sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	font-style: normal;
+
+}
+.jessTop5{
+	text-decoration: #bd8c7d;
+	text-decoration-style: solid;
+	text-decoration-line: underline s;
+}
+
 
 .jumbotron h2 {
 	font-size: 45px;
@@ -313,7 +338,7 @@ p {
 }
 
 .g-button {
-	padding: 8px 30px;
+	margin-left: -1vw;
 	font-size: 16px;
 	letter-spacing: 2px;
 	font-weight: 700;
@@ -326,13 +351,17 @@ p {
 	color: #000;
 }
 
+a{
+	color: #bd8c7d;
+}
+
 .g-button-outline {
 	color: #ffffff;
 	padding: 8px 30px;
 	font-size: 16px;
 	font-weight: 600;
 	letter-spacing: 2px;
-	border-color: #879bb6;
+	
 }
 
 .g-button-outline:hover {
@@ -354,6 +383,9 @@ p {
 	left: 3px;
 }
 
+#aboutP{
+	color: #123e58;
+}
 .about .about-photo {
 	align-self: center;
 	text-align: center;
@@ -391,7 +423,8 @@ p {
 #blacktext{
 	font-size: 18px;
 	letter-spacing: 1px;
-	color: black;
+	color: #123e58;;
+	
 }
 
 .about-skil h3 {
@@ -551,7 +584,7 @@ p {
 }
 
 .opacity{
-	opacity: 0.5;
+	opacity: 0.4;
 }
 
 .imagefont {
@@ -562,6 +595,10 @@ p {
 	font-style: normal;
 }
 
+#toDoImg{
+	filter: brightness(50%)
+}
+
 
 /*================================
        8. Trust
@@ -569,14 +606,16 @@ p {
 
 .testlogo{
 	color:#bd8c7d;
-	border-bottom: 1px solid #bd8c7d;
+	border-bottom: 3px solid #123e58;
 }
 .trusted{
-	background-color: #454545;
+	background-color: whitesmoke;
 	display: flex;
 	flex-direction: column;
 
 }
+
+
 
 .trusted .trusted-left p {
 	font-size: 17px;
@@ -593,9 +632,9 @@ p {
 }
 
 .trusted .name {
-	color: #bd8c7d;
+	color: #123e58;
 	font-size: 24px;
-	font-weight: 700;
+	font-weight: 900;
 }
 
 .trusted .post {
@@ -612,8 +651,10 @@ p {
 ================================*/
 
 .portfolio {
-	background-color: #49494b;
+	background-color: whitesmoke;
+	
 }
+
 
 
 .thingstodologo{
@@ -650,15 +691,16 @@ p {
 /*================================
           11. newbuilds
 ================================*/
-#newbuilds{
-	background-color: white;
+#new{
+	background-color: whitesmoke;
+	color: #123e58;;
 }
 #newbuildimg{
 	border-radius: 0;
 }
 .buildsheading{
 	color:#bd8c7d;
-	border-bottom: 1px solid #bd8c7d;
+	border-bottom: 3px solid #123e58;
 	padding-bottom: 5px;
 }
 
@@ -667,23 +709,26 @@ p {
 ================================*/
 
 #featured{
-	background-color:white;
+	background-color:whitesmoke;
 }
 
 .featuredlogo{
-	color:#bd8c7d
+	color:#bd8c7d;
+	border-bottom: 3px solid #123e58;
+
 }
 
 
 /*================================
           11.Jes' Top 5
 ================================*/
+
 .blogBody{
 	position: relative;
 	display: flex;
 	flex-direction: column;
 	padding: 4vw;
-	background-image:#ddddde;
+	background-color:whitesmoke;
 }
 
 
@@ -698,10 +743,17 @@ p {
 	border-bottom: none;
 }
 
+.logoDecor{
+	border-bottom: 3px solid #123e58;
+}
+
 .imageCircle{
 	border-radius: 50%;
 }
 
+p{
+	color: #123e58;
+}
 .topContent{
 	display: flex;
 	flex-direction: row;
@@ -736,10 +788,11 @@ p {
 .midParagraph2{
 	padding: 4vw;
 	text-indent: 50px;
+	margin-top: 10vh;
 }
 
 .numberTitle{
-	color:#bd8c7d;
+	color: #123e58;;
 	
 }
 
@@ -813,7 +866,7 @@ p {
 }
 
 #mainlogo {
-	border-bottom: 1px solid #bd8c7d;
+	border-bottom: 3px solid #123e58;
 	padding-bottom: 5px;
 }
 
@@ -822,7 +875,7 @@ p {
 	font-size: 16px;
 	letter-spacing: 2px;
 	font-weight: 600;
-	color: #ffffff !important;
+	color: #123e58 !important;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -870,6 +923,14 @@ p {
 	align-items: flex-end;
 }
 
+#contactSub{
+	color: #123e58;
+	font-family: gautreaux, sans-serif;
+	font-weight: bolder;
+	font-style: normal;	
+
+}
+
 .form-row:last-child .form-group {
 	margin-bottom: 0;
 }
@@ -879,9 +940,9 @@ padding-top: 6vh;
 color:#bd8c7d;
 background: none;
 border: none;
-font-size: 30px;
-font-family: 'couture-sans', sans-serif;
-font-weight: bold;
+font-size: 40px;
+font-family: gautreaux, sans-serif;
+font-weight: bolder;
 font-style: normal;	
 }
 
@@ -890,7 +951,7 @@ font-style: normal;
 ================================*/
 .my-footer {
 	padding: 40px 0;
-	background-color: #131313;
+	background-color: #123e58;
 	color:#bd8c7d;
 }
 
@@ -913,11 +974,21 @@ font-style: normal;
 	font-size: 30px;
 	transition: all ease 0.5s;
 	margin-bottom: 20px;
-	box-shadow: 0 8px 10px 1px rgba(0, 0, 0, .50);
+	box-shadow: #bd8c7d;
 }
 
+#footerDuringerTop{
+	font-family: tenez, sans-serif;
+	font-style: italic;
+	color: #bd8c7d;
+}
+#footerDuringer{
+	font-family: gautreaux, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	color: #bd8c7d
+}
 .social a:hover i {
 	color:#bd8c7d;
-	background-color: #031219;
 	border: solid 1px #bd8c7d;
 }
